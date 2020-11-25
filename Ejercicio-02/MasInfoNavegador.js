@@ -1,0 +1,15 @@
+document.write("<p>");
+document.write("Version: " + infoNavegador.version);
+document.write("</p>");
+document.write("<p>");
+document.write("Plataforma: " + infoNavegador.plataforma);
+document.write("</p>");
+document.write("<p>");
+document.write("Vendedor: " + infoNavegador.vendedor);
+document.write("</p>");
+document.write("<p>");
+document.write("Agente: " + infoNavegador.agente);
+document.write("</p>");
+document.write("<p>");
+document.write("Java activo: " + infoNavegador.javaActivo);
+document.write("</p>");
