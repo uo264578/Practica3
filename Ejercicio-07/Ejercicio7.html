@@ -13,28 +13,28 @@
 </header>
 <main>
     <form>
-        <label>Mostrar/ocultar elemento</label>
+        <h3>Mostrar/ocultar elemento</h3>
 		<input type="button" value="Ocultar" onclick="pagina.ocultarBotones()"/>
 		<input type="button" value="Mostrar" onclick="pagina.mostrarBotones()"/>
         <p id="buttonGroup"></p>
-        <label>Modificar contenido html</label>
+        <h3>Modificar contenido html</h3>
         <p>Elemento: <select id="modificar"></select></p>
         <p>Contenido:
             <input type="text" id="contenido"/>
             <input type="button" value="Modificar" onclick="pagina.modificarContenido()"/>
         </p>
-        <label>Añadir elementos html</label>
+        <h3>Añadir elementos html</h3>
         <p>Etiqueta: <input type="text" id="tarea3Etiqueta"/>
             Id: <input type="text" id="tarea3Id"/>
             Contenido: <input type="text" id="tarea3Contenido"/>
             <input type="button" value="Añadir" onclick="pagina.agregarElemento()"/>
         </p>
-        <label>Eliminar elemento html</label>
+        <h3>Eliminar elemento html</h3>
         <p>Elemento:
             <select id="tarea4"></select>
             <input type="button" value="Eliminar" onclick="pagina.eliminarElemento()"/>
         </p>
-        <label>Mostrar árbol DOM</label>
+        <h3>Mostrar árbol DOM</h3>
         <input type="button" value="Mostrar" onclick="pagina.mostrarDom()"/>
     </form>
     <table id="myTable">
