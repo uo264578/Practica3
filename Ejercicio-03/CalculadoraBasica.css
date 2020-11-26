@@ -83,7 +83,7 @@ form input[type=text] {
     background-color: white;
 }
 
-.operation {
+.operacion {
     background-color: red;
     color: #000000;
 }
@@ -93,12 +93,12 @@ form input[type=text] {
     color: #000000;
 }
 
-.number {
+.numero {
     color: white;
     background-color: #3E7C90;
 }
 
-.memory {
+.memoria {
     background-color: #364D62;
     color: white;
 }
