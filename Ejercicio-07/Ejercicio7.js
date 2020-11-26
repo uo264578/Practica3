@@ -45,15 +45,15 @@ class Pagina {
 
     añadirBotonElemento(id) {
         let cadena = "<input type='button' value='" + id + "' onclick='pagina.pulsarBoton(\"" + id + "\")'/>";
-        $("#buttonGroup").append(cadena);
+        $("#botones").append(cadena);
     }
 	
 	ocultarBotones(){
-			$("#buttonGroup").hide();
+			$("#botones").hide();
 	}
 	
 	mostrarBotones(){
-			$("#buttonGroup").show();
+			$("#botones").show();
 	}
 
     añadirComboBox(id) {
@@ -76,7 +76,7 @@ class Pagina {
         if (this.comprobarElemento()) {
             this.añadirElemento(
                 new Elemento($("#tarea3Etiqueta").val(),
-                    $("#tarea3Id").val(),
+                    $("#tareaId").val(),
                     $("#tarea3Contenido").val())
             );
         } else
@@ -84,7 +84,7 @@ class Pagina {
     }
 
     comprobarElemento() {
-        let id = $("#tarea3Id").val();
+        let id = $("#tareaId").val();
         for (let i = 0; i < this.coleccion.length; i++) {
             if (this.coleccion[i].id === id)
                 return false;
