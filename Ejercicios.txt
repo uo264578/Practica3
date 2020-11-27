@@ -2,7 +2,7 @@ Ejercicios         HTML valido            CSS valido          accesibilidad     
 
 Ejercicio1              X                      X                    X                     X                   X
 
-Ejercicio2              X
+Ejercicio2              X                      X
 
 Ejercicio3
 
