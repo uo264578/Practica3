@@ -1,8 +1,8 @@
 Ejercicios         HTML valido            CSS valido          accesibilidad         adaptabilidad        navegadores
 
-Ejercicio1              X                      X                    X 
+Ejercicio1              X                      X                    X                     X                   X
 
-Ejercicio2
+Ejercicio2              X
 
 Ejercicio3
 
