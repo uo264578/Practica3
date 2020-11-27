@@ -26,6 +26,11 @@ h4{
 	color: #000000;
 	background-color:#FFFFFF; 
 }
+h5{
+    font: 400 25px Tahoma, sans-serif;
+	color:#000000;
+	background-color:#FFFFFF; 
+}
 p{
     font: 400 15px Tahoma, sans-serif;
 	color:#000000;
