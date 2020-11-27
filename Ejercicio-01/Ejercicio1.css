@@ -7,14 +7,12 @@ h1 {
   }
 h2{
     font-weight: bolder;
-    font: 15px Tahoma,sans-serif;
     color: #00FF00;
 	background-color:#FFFFFF; 
 	font-size: 20px;
 	text-align: center; 
   }
 h3{
-    font-family: 15px Tahoma,sans-serif;
     font-size: 18px;
     font-weight: lighter;
 	text-align: center; 
@@ -22,17 +20,13 @@ h3{
 	background-color:#FFFFFF; 
 }
 h4{
-    font-family:15px Tahoma,sans-serif;
     font-size: 18px;
     font-weight: lighter;
 	text-align: center; 
 	color: #000000;
 	background-color:#FFFFFF; 
 }
-p{
-    font-family: 15px Tahoma,sans-serif;
-	color:#000000;
-}
 html{
     background-color: #FFFFFF;
+	color:#000000;
 }
