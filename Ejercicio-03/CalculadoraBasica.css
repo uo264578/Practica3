@@ -83,6 +83,11 @@ section input[type=text] {
     background-color: white;
 }
 
+label{
+	background-color: #505050;
+	color:white;
+}
+
 .operacion {
     background-color: red;
     color: #000000;
