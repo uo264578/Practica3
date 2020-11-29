@@ -8,14 +8,21 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Ejercicio9.js"></script>
 </head>
-<body onload="tiempoTarifa.mostrarDatos()">
+<body>
 <header>
     <h1>Ejercicio 9</h1>
 </header>
 <main>
-    <h2>Datos meteorológicos</h2>
     <p>
-        <input type="button" value="Cargar Datos Tarifa" onclick="tiempoTarifa.mostrarDatos()"/>
+        <input type="button" value="Datos Tarifa" onclick="tiempoTarifa.XML()"/>
+		<input type="button" value="Datos Logroño" onclick="tiempoLogroño.XML()"/>
+		<input type="button" value="Datos Malaga" onclick="tiempoMalaga.XML()"/>
+		<input type="button" value="Datos Gijon" onclick="tiempoGijon.XML()"/>
+		<input type="button" value="Datos Sevilla" onclick="tiempoSevilla.XML()"/>
+		<h2></h2>
+		<h3></h3>
+		<div>
+		</div>
     </p>
 </main>
 <footer>
