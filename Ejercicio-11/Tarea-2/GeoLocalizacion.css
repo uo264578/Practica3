@@ -85,7 +85,8 @@ footer address {
 main table {
     border-collapse: collapse;
     width: 100%;
-    background: white;
+	color:black;
+    background-color: white;
 	text-align: center;
 }
 
