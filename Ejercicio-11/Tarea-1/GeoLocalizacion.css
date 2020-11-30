@@ -11,6 +11,7 @@ body {
     min-height: 100%;
     font-family: Ubuntu, Tahoma, sans-serif;
     color: #000000;
+	background-color:white;
 	text-align: center;
 }
 
@@ -71,6 +72,7 @@ footer p {
 footer a {
     font-weight: bold;
     color: white;
+	background-color:black;
     text-decoration: none;
 }
 
@@ -83,7 +85,8 @@ footer address {
 main table {
     border-collapse: collapse;
     width: 100%;
-    background: white;
+	color: black;
+    background-color: white;
 	text-align: center;
 }
 
@@ -97,14 +100,3 @@ main th {
 	color: ffffff;
 }
 
-
-@media screen and (max-height: 400px) {
-    body {
-        position: static;
-        padding-bottom: 0;
-    }
-	
-    footer {
-        position: static;
-    }
-}

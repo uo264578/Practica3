@@ -10,6 +10,7 @@ body {
     padding-bottom: 10em;
     min-height: 100%;
     font-family: Ubuntu, Tahoma, sans-serif;
+	background-color:white;
     color: #000000;
 	text-align: center;
 }
@@ -70,6 +71,7 @@ footer p {
 
 footer a {
     font-weight: bold;
+	background-color:black;
     color: white;
     text-decoration: none;
 }
@@ -97,14 +99,3 @@ main th {
 	color: ffffff;
 }
 
-
-@media screen and (max-height: 400px) {
-    body {
-        position: static;
-        padding-bottom: 0;
-    }
-	
-    footer {
-        position: static;
-    }
-}

@@ -12,6 +12,7 @@ body {
     padding-bottom: 10em;
     min-height: 100%;
     font-family: Ubuntu, Tahoma, sans-serif;
+	background-color:white;
     color: #000000;
 }
 
@@ -62,7 +63,8 @@ footer address {
 main table {
     border-collapse: collapse;
     width: 100%;
-    background: white;
+	color:black;
+    background-color: white;
 }
 
 main th, td {
@@ -78,20 +80,7 @@ main th {
     background-color: darkblue;
 }
 
-main tr:nth-child(2n) {
-    background-color: #f2f2f2;
-}
 
-@media screen and (max-height: 480px) {
-    body {
-        position: static;
-        padding-bottom: 0;
-    }
-
-    footer {
-        position: static;
-    }
-}
 
 #mapa {
     margin-bottom: 25px;

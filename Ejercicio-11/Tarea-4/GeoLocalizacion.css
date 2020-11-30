@@ -9,6 +9,7 @@ body {
     padding-bottom: 10em;
     min-height: 100%;
     font-family: Ubuntu, Tahoma, sans-serif;
+	background-color:white;
     color: #000000;
 }
 
@@ -25,17 +26,6 @@ h1 {
     font-size: 35px;
 }
 
-
-@media screen and (max-height: 480px) {
-    body {
-        position: static;
-        padding-bottom: 0;
-    }
-
-    footer {
-        position: static;
-    }
-}
 
 main {
     height: 500px;
