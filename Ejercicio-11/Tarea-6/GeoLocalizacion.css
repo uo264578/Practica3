@@ -67,7 +67,7 @@ main table {
     background-color: white;
 }
 
-main th, td {
+main  td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
