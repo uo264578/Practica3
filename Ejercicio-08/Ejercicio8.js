@@ -1,5 +1,5 @@
 "use strict"
-public class TiempoTarifa {
+class TiempoTarifa {
     constructor() {
         this.url = "";
         this.map = new Map();
@@ -61,7 +61,6 @@ public class TiempoTarifa {
             table.append("<td headers=\"col\">" + this.map.get(keys[param]) + "</td>");
             table.append("</tr>");
         }
-
     }
 }
 
