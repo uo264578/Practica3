@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="author" content="Pedro Garcia-Cañal Sanchez" />
     <meta name="description" content="Ejercicio 3 " />
-    <title>Practica 3</title>
-    <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css" />
-    <script src="CalculadoraBasica.js"></script>
+    <title>Practica 6</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraEnergetica.css" />
+    <script src="CalculadoraEnergetica.js"></script>
 </head>
 <body>
     <header>
-        <h1>Calculadora Básica</h1>
+        <h1>Calculadora Energetica</h1>
     </header>
     <main>
         <section>
@@ -18,9 +18,15 @@
                 <input type="text" id="pantalla" value="0" disabled />
             </p>
             <p>
-                <input type="button" class="memoria" value="mrc" onclick="calculator.mrc()" />
-                <input type="button" class="memoria" value="m-" onclick="calculator.mMenos()" />
-                <input type="button" class="memoria" value="m+" onclick="calculator.mMas()" />
+                <input type="button" class="memoria" value="Perdidas ambientales" onclick="calculator.condiciones()" />
+                <input type="button" class="memoria" value="Perdidas aislamiento" onclick="calculator.perdidas()" />
+                <input type="button" class="memoria" value="Gastos" onclick="calculator.gastos()" />
+				<input type="button" class="memoria" value="Total energia gastada" onclick="calculator.mrc()" />
+			</p>
+			<p>
+				<input type="button" class="memoria" value="Gastos electrodomesticos" onclick="calculator.gastos()" />
+				<input type="button" class="memoria" value="Calefacción" onclick="calculator.gastos()" />
+				<input type="button" class="memoria" value="Otros gastos" onclick="calculator.gastos()" />
                 <input type="button" class="operacion" value="/" onclick="calculator.display('/')" />
             </p>
             <p>
@@ -44,7 +50,7 @@
             <p>
                 <input type="button" class="numero" value="0" onclick="calculator.display('0')" />
                 <input type="button" class="numero" value="." onclick="calculator.display('.')" />
-                <input type="button" class="numero" value="C" onclick="calculator.borrar()" />
+                <input type="button" class="numero" value="C" onclick="calculator.borrarDatos()" />
                 <input type="button" class="resultado" value="=" onclick="calculator.igual()" />
             </p>
         </section>

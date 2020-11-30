@@ -4,7 +4,7 @@ Ejercicio1              X                      X                    X           
 
 Ejercicio2              X                      X                    X                     X
 
-Ejercicio3              X                      X
+Ejercicio3                                     
 
 Ejercicio4
  

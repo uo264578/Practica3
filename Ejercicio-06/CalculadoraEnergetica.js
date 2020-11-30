@@ -2,7 +2,9 @@
 
 class Calculator {
     constructor() {
-        this.memory = 0;
+        this.memoriaPerdidas = 0;
+		this.memoriaGastos = 0;
+		this.memoriaCondiciones = 0;
     }
 
     display(digit) {
@@ -14,6 +16,14 @@ class Calculator {
         }
     }
 
+	borrarDatos() {
+        const display = document.getElementById("pantalla");
+        display.value = "0";
+		this.memoriaPerdidas = 0;
+		this.memoriaGastos = 0;
+		this.memoriaCondiciones = 0;
+    }	
+		
     borrar() {
         const display = document.getElementById("pantalla");
         display.value = "0";
@@ -29,20 +39,30 @@ class Calculator {
         }
     }
 
-    mMas() {
+    gastos() {
         try {
             const display = document.getElementById("pantalla");
-            this.memory += eval(display.value);
+            this.memoriaGastos += eval(display.value);
+            this.borrar();
+        } catch (e) {
+            alert('error')
+        }
+    }
+	
+	condiciones() {
+        try {
+            const display = document.getElementById("pantalla");
+            this.memoriaCondiciones += eval(display.value);
             this.borrar();
         } catch (e) {
             alert('error')
         }
     }
 
-    mMenos() {
+    perdidas() {
         try {
             const display = document.getElementById("pantalla");
-            this.memory -= eval(display.value);
+            this.memoriaPerdidas += eval(display.value);
             this.borrar();
         } catch (e) {
             alert('error')
@@ -50,9 +70,13 @@ class Calculator {
     }
 
     mrc() {
-        const display = document.getElementById("pantalla");
-        display.value = this.memory;
-        this.memory = 0;
+		try{
+			const display = document.getElementById("pantalla");
+            display.value = eval(this.memoriaPerdidas + this.memoriaGastos + this.memoriaCondiciones);
+            this.memory = 0;
+		} catch (e) {
+            alert('error');
+        }
     }
 }
 
