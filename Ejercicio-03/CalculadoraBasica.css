@@ -17,6 +17,11 @@ main {
     width: 100%;
 }
 
+h2 {
+    color: #fff;
+	background: #505050;
+}
+
 h1 {
     margin-top: 0;
     margin-bottom: 0;
