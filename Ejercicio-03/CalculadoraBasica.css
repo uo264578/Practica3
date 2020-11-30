@@ -13,13 +13,14 @@ body {
 	background: #FFFFFF;
 }
 main {
-    margin: 0 auto;
     width: 100%;
+	height:100%;
 }
 
 h2 {
     color: #fff;
 	background: #505050;
+	font-size:25px;
 }
 
 h1 {
@@ -66,7 +67,8 @@ footer address {
 
 section {
     margin: 5% auto 0;
-    width: 50%;
+    width: 75%;
+	height: 75%;
     padding: 2.5%;
 	color: #000000;
     background: #505050;
@@ -79,15 +81,21 @@ section input {
 
 
 section p {
-    height: 15%;
+	color: white;
+    background-color: #505050;
+    height: 50%;
+	font-size:30px;
 }
 
 section input[type=button] {
     width: 24%;
+	height:50%;
+	font-size:25px;
 }
 
 section input[type=text] {
-    width: 100%;
+    width: 90%;
+	font-size:25px;
     padding-left: 5%;
 	color:black;
     background-color: white;
