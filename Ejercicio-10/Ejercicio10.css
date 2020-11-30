@@ -95,17 +95,6 @@ main th, td {
 }
 main th {
     background-color: #5555ff;
-	color: ffffff;
+	color: #ffffff;
 }
 
-
-@media screen and (max-height: 400px) {
-    body {
-        position: static;
-        padding-bottom: 0;
-    }
-	
-    footer {
-        position: static;
-    }
-}
