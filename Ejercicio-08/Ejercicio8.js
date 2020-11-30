@@ -1,5 +1,5 @@
 "use strict"
-class TiempoTarifa {
+public class TiempoTarifa {
     constructor() {
         this.url = "";
         this.map = new Map();
