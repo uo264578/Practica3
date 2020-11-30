@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Pedro Garcia-Cañal"/>
+    <title>Ejercicio 11(6)</title>
+    <link rel="stylesheet" type="text/css" href="Geolocalizacion.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<header>
+    <h1>Ejercicio 11</h1>
+</header>
+<main>
+    <h3>Tiempo y Mapa de un lugar</h2>
+    <p>
+        <label for="ciudad">Elige un lugar</label>
+        <input type="text" id="ciudad">
+    </p>
+    <p>
+        <input type="button" value="Cargar datos" onclick="tiempo.modificarCiudad()"/>
+    </p>
+    <div id="mapa"></div>
+    <div id="weather"></div>
+</main>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=mapa.mostrar">
+</script>
+<script src="Geolocalizacion.js"></script>
+</body>
+</html>
