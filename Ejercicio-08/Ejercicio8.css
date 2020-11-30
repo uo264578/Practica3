@@ -11,6 +11,7 @@ body {
     min-height: 100%;
     font-family: Ubuntu, Tahoma, sans-serif;
     color: #000000;
+	background-color:white;
 }
 
 main {
@@ -58,7 +59,8 @@ footer p {
 
 footer a {
     font-weight: bold;
-    color: white;
+    color: black;
+	background-color:white;
     text-decoration: none;
 }
 
@@ -72,7 +74,8 @@ footer address {
 main table {
     border-collapse: collapse;
     width: 100%;
-    background: white;
+	color:black;
+    background-color: white;
 }
 
 main th, td {
