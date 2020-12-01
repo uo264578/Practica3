@@ -10,7 +10,7 @@ Ejercicio4              X                      X                    X           
  
 Ejercicio5 Cambiar eval
 
-Ejercicio6              X                      X                    X                     
+Ejercicio6              X                      X                    X                     X               
 
 Ejercicio7
 

@@ -46,7 +46,8 @@ form {
     margin: 5% auto 0;
     width: 75%;
     padding: 2.5%;
-    background: #50F0FF;
+    background-color: #50F0FF;
+	color:black;
     border-radius: 15px;
 }
 
