@@ -22,7 +22,7 @@ Ejercicio10            X                        X                     X         
 
 Ejercicio11            X                        X
 
-Ejercicio12
+Ejercicio12            X                        X                     
 
 Ejercicio13
 
