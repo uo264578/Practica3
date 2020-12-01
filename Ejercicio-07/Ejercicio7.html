@@ -11,28 +11,30 @@
 </header>
     <section>
         <h2>Mostrar/ocultar elemento</h2>
-		<p> Lista
+		<div> Elementos
 		<input type="button" value="Ocultar" onclick="pagina.ocultarBotones()"/>
 		<input type="button" value="Mostrar" onclick="pagina.mostrarBotones()"/>
-        <p id="botones">Elementos: </p>
-		</p>
+		</div>
+		<div>
+        <p title = "botones" id="botones" disabled> </p>
+		</div>
         <h2>Modificar contenido html</h2>
-        <p>Elemento: <select id="modificar"></select></p>
+        <div>Elemento: <select id="modificar"></select></div>
         <p>Contenido:
             <input type="text" title ="contenido" id="contenido"/>
             <input type="button" value="Modificar" onclick="pagina.modificarContenido()"/>
         </p>
         <h2>Añadir elementos html</h2>
-        <p>Etiqueta: <input type="text" title = "etiqueta" id="tarea3Etiqueta"/>
+        <div>Etiqueta: <input type="text" title = "etiqueta" id="tarea3Etiqueta"/>
             Id: <input type="text" title ="id" id="tareaId"/>
             Contenido: <input type="text" title = "contenidoAadir" id="tarea3Contenido"/>
             <input type="button" value="Añadir" onclick="pagina.agregarElemento()"/>
-        </p>
+        </div>
         <h2>Eliminar elemento html</h2>
-        <p>Elemento:
+        <div>Elemento:
             <select id="tarea4" ></select>
             <input type="button" value="Eliminar" onclick="pagina.eliminarElemento()"/>
-        </p>
+        </div>
         <h2>Mostrar árbol DOM</h2>
         <input type="button" value="Mostrar" onclick="pagina.mostrarDom()"/>
     </section>

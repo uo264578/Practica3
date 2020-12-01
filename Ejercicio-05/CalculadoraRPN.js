@@ -18,7 +18,7 @@ class Calculator {
         if (this.stack.length >= 2) {
             const left = this.stack.pop();
             const right = this.stack.pop();
-            const result = eval(right + operation + left);
+            const result = (right + operation + left);
             this.stack.push(result);
             document.getElementById("resultado").value = result;
         } else {
