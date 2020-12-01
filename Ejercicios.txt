@@ -22,8 +22,8 @@ Ejercicio10            X                        X                     X         
 
 Ejercicio11            X                        X
 
-Ejercicio12            X                        X                     
+Ejercicio12            X                        X                     X                    X
 
-Ejercicio13
+Ejercicio13            
 
 Ejercicio14
