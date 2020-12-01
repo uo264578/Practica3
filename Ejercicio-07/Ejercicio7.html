@@ -12,7 +12,7 @@
     <h1>Ejercicio 7</h1>
 </header>
 <main>
-    <form>
+    <section>
         <h3>Mostrar/ocultar elemento</h3>
 		<input type="button" value="Ocultar" onclick="pagina.ocultarBotones()"/>
 		<input type="button" value="Mostrar" onclick="pagina.mostrarBotones()"/>
@@ -36,14 +36,13 @@
         </p>
         <h3>Mostrar árbol DOM</h3>
         <input type="button" value="Mostrar" title = "mostrar" onclick="pagina.mostrarDom()"/>
-    </form>
+    </section>
     <table id="tabla">
-        <thead>
+        <thead>Tabla</thead>
         <tr>
             <th>A</th>
             <th>B</th>
         </tr>
-        </thead>
         <tbody>
         <tr>
             <td class="numero">1</td>
@@ -60,10 +59,10 @@
         </tbody>
     </table>
     <button onclick="pagina.sumTable()">Calcular</button>
-    <section id="result">
+    <div id="result">
 	<h5>Resultado</h5>
 
-    </section>
+    </div>
 </main>
 <footer>
     <address>
