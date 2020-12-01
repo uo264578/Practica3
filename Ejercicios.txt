@@ -24,6 +24,6 @@ Ejercicio11            X                        X
 
 Ejercicio12            X                        X                     X                    X
 
-Ejercicio13            X                        X                     
+Ejercicio13            X                        X                     X                    X
 
-Ejercicio14
+Ejercicio14            
