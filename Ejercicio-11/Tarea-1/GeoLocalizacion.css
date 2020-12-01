@@ -51,11 +51,11 @@ footer {
 }
 
 
-main p {
+section p {
     text-align: center;
 }
 
-main input {
+section input {
     border-radius: 15px;
     color: black;
     background-color: #5555ff;
@@ -82,7 +82,7 @@ footer address {
     width: 80%;
 }
 
-main table {
+section table {
     border-collapse: collapse;
     width: 100%;
 	color: black;
@@ -90,12 +90,12 @@ main table {
 	text-align: center;
 }
 
-main th, td {
+section th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
 }
-main th {
+section th {
     background-color: #5555ff;
 	color: #ffffff;
 }
