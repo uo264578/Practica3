@@ -2,7 +2,6 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta charset="UTF-8">
     <meta name="author" content="Pedro Garcia-Cañal"/>
     <link rel="stylesheet" type="text/css" href="Ejercicio12.css"/>
     <title>Ejercicio 12</title>
@@ -21,13 +20,13 @@ if (window.File && window.FileReader && window.FileList && window.Blob)
  }
     else document.write("<p>¡¡¡ Este navegador NO soporta el API File y este programa puede no funcionar correctamente !!!</p>");
 </script>
-    <section id="control">
+    <section id="control"><h2>Archivos</h2>
         <p>
             <label for="files"></label>
             <input type="file" id="files" onchange="apiFile.processFiles();" multiple>
         </p>
     </section>
-    <section id="result"></section>
+    <section id="result"><h2>Resultado</h2></section>
 </main>
 <script src="Ejercicio12.js"></script>
 </body>
