@@ -8,36 +8,34 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-<header>
-    <h1>Ejercicio 7</h1>
-</header>
 <main>
+<h1>Ejercicio 7</h1>
     <section>
-        <h3>Mostrar/ocultar elemento</h3>
+        <h2>Mostrar/ocultar elemento</h2>
 		<input type="button" value="Ocultar" onclick="pagina.ocultarBotones()"/>
 		<input type="button" value="Mostrar" onclick="pagina.mostrarBotones()"/>
         <p title = "botones" id="botones"></p>
-        <h3>Modificar contenido html</h3>
+        <h2>Modificar contenido html</h2>
         <p>Elemento: <select title = "modificar" id="modificar"></select></p>
         <p>Contenido:
             <input type="text" title ="contenido" id="contenido"/>
             <input type="button" title = "modificar" value="Modificar" onclick="pagina.modificarContenido()"/>
         </p>
-        <h3>Añadir elementos html</h3>
+        <h2>Añadir elementos html</h2>
         <p>Etiqueta: <input type="text" title = "etiqueta" id="tarea3Etiqueta"/>
             Id: <input type="text" title ="id" id="tareaId"/>
             Contenido: <input type="text" title = "contenido" id="tarea3Contenido"/>
             <input type="button" value="Añadir" title ="añadir" onclick="pagina.agregarElemento()"/>
         </p>
-        <h3>Eliminar elemento html</h3>
+        <h2>Eliminar elemento html</h2>
         <p>Elemento:
             <select id="tarea4" title ="tarea4" ></select>
             <input type="button" value="Eliminar" title ="eliminar" onclick="pagina.eliminarElemento()"/>
         </p>
-        <h3>Mostrar árbol DOM</h3>
+        <h2>Mostrar árbol DOM</h2>
         <input type="button" value="Mostrar" title = "mostrar" onclick="pagina.mostrarDom()"/>
     </section>
-    <table id="tabla">
+    <table title = "tabla" id="tabla">
         <thead>Tabla</thead>
         <tr>
             <th>A</th>
