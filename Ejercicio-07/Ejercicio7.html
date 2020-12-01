@@ -11,13 +11,13 @@
 </header>
     <section>
         <h2>Mostrar/ocultar elemento</h2>
-		<p> Elementos
+		<p> Lista
 		<input type="button" value="Ocultar" onclick="pagina.ocultarBotones()"/>
 		<input type="button" value="Mostrar" onclick="pagina.mostrarBotones()"/>
-        <p id="botones" disabled> </p>
+        <p id="botones">Elementos: </p>
 		</p>
         <h2>Modificar contenido html</h2>
-        <p>Elemento: <select title = "modificar" id="modificar"></select></p>
+        <p>Elemento: <select id="modificar"></select></p>
         <p>Contenido:
             <input type="text" title ="contenido" id="contenido"/>
             <input type="button" value="Modificar" onclick="pagina.modificarContenido()"/>
@@ -58,7 +58,7 @@
         </tbody>
     </table>
     <button onclick="pagina.sumTable()">Calcular</button>
-    <div title = "result" id="result">
+    <div id="result">
 	<h3>Resultado</h3>
 
     </div>
