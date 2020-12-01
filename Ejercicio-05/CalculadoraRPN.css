@@ -43,7 +43,8 @@ p{
 
 section {
     margin: 5% auto 0;
-    width: 50%;
+    width: 75%;
+	height: 75%;
     padding: 2.5%;
 	color:white;
     background-color: black;
@@ -51,12 +52,24 @@ section {
     box-sizing: inherit;
 }
 
+section p {
+	color: white;
+    background-color: #000;
+    height: 50%;
+	font-size:30px;
+}
+
 section input[type=button] {
-    width: 19%;
+    width: 24%;
+	height:50%;
+	font-size:25px;
 }
 
 section input[type=text] {
-    width: 100%;
+    width: 90%;
+	font-size:25px;
+    padding-left: 5%;
+	color: black;
     background-color: white;
     font-size: 30px;
 }
