@@ -12,29 +12,29 @@
     <section>
         <h2>Mostrar/ocultar elemento</h2>
 		<p> Elementos
-		<input type="button" value="Ocultar" title = "ocultar" onclick="pagina.ocultarBotones()"/>
-		<input type="button" value="Mostrar" title = "mostrar" onclick="pagina.mostrarBotones()"/>
-        <p title = "botones" id="botones" disabled > </p>
+		<input type="button" value="Ocultar" onclick="pagina.ocultarBotones()"/>
+		<input type="button" value="Mostrar" onclick="pagina.mostrarBotones()"/>
+        <p id="botones" disabled> </p>
 		</p>
         <h2>Modificar contenido html</h2>
         <p>Elemento: <select title = "modificar" id="modificar"></select></p>
         <p>Contenido:
             <input type="text" title ="contenido" id="contenido"/>
-            <input type="button" title = "modificarCon" value="Modificar" onclick="pagina.modificarContenido()"/>
+            <input type="button" value="Modificar" onclick="pagina.modificarContenido()"/>
         </p>
         <h2>Añadir elementos html</h2>
         <p>Etiqueta: <input type="text" title = "etiqueta" id="tarea3Etiqueta"/>
             Id: <input type="text" title ="id" id="tareaId"/>
             Contenido: <input type="text" title = "contenidoAadir" id="tarea3Contenido"/>
-            <input type="button" value="Añadir" title ="añadir" onclick="pagina.agregarElemento()"/>
+            <input type="button" value="Añadir" onclick="pagina.agregarElemento()"/>
         </p>
         <h2>Eliminar elemento html</h2>
         <p>Elemento:
             <select id="tarea4" title ="tarea4" ></select>
-            <input type="button" value="Eliminar" title ="eliminar" onclick="pagina.eliminarElemento()"/>
+            <input type="button" value="Eliminar" onclick="pagina.eliminarElemento()"/>
         </p>
         <h2>Mostrar árbol DOM</h2>
-        <input type="button" value="Mostrar" title = "mostrar" onclick="pagina.mostrarDom()"/>
+        <input type="button" value="Mostrar" onclick="pagina.mostrarDom()"/>
     </section>
     <table title = "tabla" id="tabla">
         <thead>Tabla</thead>
@@ -57,7 +57,7 @@
         </tr>
         </tbody>
     </table>
-    <button title = "calcular" onclick="pagina.sumTable()">Calcular</button>
+    <button onclick="pagina.sumTable()">Calcular</button>
     <div title = "result" id="result">
 	<h3>Resultado</h3>
 
