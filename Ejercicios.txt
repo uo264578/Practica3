@@ -12,7 +12,7 @@ Ejercicio5 Cambiar eval
 
 Ejercicio6              X                      X                    X                     X               
 
-Ejercicio7              X                      X                    
+Ejercicio7              X                      X                    X                     X
 
 Ejercicio8 (no se ve online) X                  X                     X                     X
 
