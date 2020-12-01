@@ -21,12 +21,14 @@ if (window.File && window.FileReader && window.FileList && window.Blob)
     else document.write("<p>¡¡¡ Este navegador NO soporta el API File y este programa puede no funcionar correctamente !!!</p>");
 </script>
     <section id="control">Archivos
+	    <h2>Elige un archivo</h2>
         <p>
             <label for="files"></label>
             <input type="file" id="files" onchange="apiFile.processFiles();" multiple>
         </p>
     </section>
-    <section id="result">Resultado</section>
+    <section id="result">Resultado
+	<h2>Contenido</h2></section>
 </main>
 <script src="Ejercicio12.js"></script>
 </body>
