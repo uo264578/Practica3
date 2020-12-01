@@ -64,7 +64,7 @@ footer address {
     width: 80%;
 }
 
-form {
+section {
     margin: 5% auto 0;
     width: 75%;
 	height: 75%;
@@ -74,23 +74,23 @@ form {
     border-radius: 15px;
 }
 
-form input {
+section input {
     border-radius: 15px;
 }
 
 
-form p {
+section p {
 	height: 50%;
 	font-size:30px;
 }
 
-form input[type=button] {
+section input[type=button] {
     width: 19%;
 	height:50%;
 	font-size:20px;
 }
 
-form input[type=text] {
+section input[type=text] {
     width: 90%;
 	font-size:25px;
     padding-left: 5%;
