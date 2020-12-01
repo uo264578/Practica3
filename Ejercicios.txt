@@ -6,11 +6,11 @@ Ejercicio2              X                      X                    X           
 
 Ejercicio3              X                      X                    X                     X                       
 
-Ejercicio4              X                      
+Ejercicio4              X                      X                    X                     X
  
 Ejercicio5 Cambiar eval
 
-Ejercicio6
+Ejercicio6              
 
 Ejercicio7
 
