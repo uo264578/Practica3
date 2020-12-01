@@ -30,7 +30,7 @@ class Geolocalizacion {
         alert('Error: ' + error.code + ' ' + error.message);
     }
     tabla() {
-        const main = $("main");
+        const main = $("section");
         main.append("<table>");
         const keys = Array.from(this.map.keys());
         main.append("<th scope='col' id='parametro'>Parametro</th>");
