@@ -8,7 +8,7 @@ Ejercicio3              X                      X                    X           
 
 Ejercicio4              X                      X                    X                     X
  
-Ejercicio5 Cambiar eval
+Ejercicio5 Cambiar eval X                      X                    
 
 Ejercicio6              X                      X                    X                     X               
 
